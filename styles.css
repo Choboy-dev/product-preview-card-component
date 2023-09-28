@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Montserrat;
+    background-color: hsl(30, 38%, 92%);
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: Fraunces;
+    font-size: 1.8rem;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: hsl(158, 36%, 37%);
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-one {
+    width: 50%;
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+}
+
+.section-two {
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text-one {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.text-three {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.price-one {
+    font-size: 1.8rem;
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+    width: 50%;
+    font-weight: 900;
+}
+
+.price-two {
+    color: hsl(228, 12%, 48%);
+    padding-left: 20px;
+    text-decoration: line-through;
+}
+
+.button {
+    width: 100%;
+    padding: 15px 30px;
+    font-family: Montserrat;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+}
+
+.fa-solid {
+    padding-right: 10px;
+}
+
+.attribution {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        overflow-y: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        height: 550px;
+        width: 300px;
+    }
+
+   .section-one {
+        width: 100%;
+        height: 38%;
+        background-image: url(/images/image-product-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0 0;
+    }
+
+   .section-two {
+        width: 100%;
+        height: 60%;
+        gap: 15px;
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .attribution {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
