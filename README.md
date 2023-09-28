@@ -6,9 +6,9 @@ This project is a Product Preview Card component developed as part of a challeng
 
 ## Screenshots
 
-[Desktop](/design/desktop-design.jpg)
+[Desktop](Desktop.png)
 
-[Mobile](/design/mobile-design.jpg)
+[Mobile](Mobile.png)
 
 ## Technologies Used
 
